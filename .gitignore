@@ -1,0 +1,33 @@
+﻿# Raw & processed large datasets
+data/raw/
+data/processed/
+*.h5
+*.h5ad
+*.loom
+*.gct
+*.gctx
+*.tsv.gz
+*.csv.gz
+*.tar.gz
+*.zip
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*.class
+.ipynb_checkpoints/
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# OS & VS Code
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Secrets / env
+.env
+*.pem
