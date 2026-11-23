@@ -17,12 +17,6 @@ Human replicative senescence RNA-seq (`GSE346632`, IMR90 `PD40` vs `PD32`) diffe
 ### 2. SCAP Starter Genes (`log2FoldChange`)
 ![SCAP Starter log2FC](results/figures/scap_starter_log2fc.png)
 
-## Environment Setup
-
-```bash
-conda activate scap-repurposing
-pip install -r requirements.txt
-
 ## Data Sources & References
 
 - **Transcriptomic Dataset:** NCBI GEO [`GSE346632`](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346632) (IMR90 replicative senescence, `PD40` vs. `PD32`).
@@ -31,3 +25,10 @@ pip install -r requirements.txt
   - **L1000 / L1000FWD:** Opposite-signature perturbation screening.
   - **ChEMBL:** Clinical development phase (`max_phase`) and mechanism of action (`MOA`) annotation.
 - **Disclaimer:** This pipeline is intended for exploratory computational drug repurposing research and requires experimental validation.
+
+## Environment Setup
+
+```bash
+conda activate scap-repurposing
+pip install -r requirements.txt
+
