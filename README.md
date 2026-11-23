@@ -22,3 +22,12 @@ Human replicative senescence RNA-seq (`GSE346632`, IMR90 `PD40` vs `PD32`) diffe
 ```bash
 conda activate scap-repurposing
 pip install -r requirements.txt
+
+## Data Sources & References
+
+- **Transcriptomic Dataset:** NCBI GEO [`GSE346632`](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346632) (IMR90 replicative senescence, `PD40` vs. `PD32`).
+- **Senescence & SCAP Gene Sets:** `SenMayo`, `CellAge`, `SASP Atlas`, and `SCAP_starter` gene sets used for signature profiling and SCAP context.
+- **Perturbation & Drug Annotation:**
+  - **L1000 / L1000FWD:** Opposite-signature perturbation screening.
+  - **ChEMBL:** Clinical development phase (`max_phase`) and mechanism of action (`MOA`) annotation.
+- **Disclaimer:** This pipeline is intended for exploratory computational drug repurposing research and requires experimental validation.
