@@ -12,7 +12,7 @@ Human replicative senescence RNA-seq (`GSE346632`, IMR90 `PD40` vs `PD32`) diffe
 ## Key Visualizations
 
 ### 1. Senescence Signature Overview (`PD40` vs `PD32`)
-![Signature Overview](results/figures/signature_overview.jpg)
+![Signature Overview](results/figures/signature_overview.png)
 
 ### 2. SCAP Starter Genes (`log2FoldChange`)
 ![SCAP Starter log2FC](results/figures/scap_starter_log2fc.png)
