@@ -9,6 +9,14 @@ Human replicative senescence RNA-seq (`GSE346632`, IMR90 `PD40` vs `PD32`) diffe
 3. **Reversal Query & Drug Screening (`13_prepare_reversal_query.py` ~ `16_summarize_candidates.py`)**: `UP`/`DOWN` query generation, `L1000FWD` opposite-signature result parsing, and `ChEMBL` clinical phase / MOA annotation.
 4. **Candidate Table Export (`20_export_candidates_table.py`)**: Export summary table (`results/l1000fwd/08_repurposing_candidates_table.md`).
 
+## Key Visualizations
+
+### 1. Senescence Signature Overview (`PD40` vs `PD32`)
+![Signature Overview](results/figures/signature_overview.jpg)
+
+### 2. SCAP Starter Genes (`log2FoldChange`)
+![SCAP Starter log2FC](results/figures/scap_starter_log2fc.png)
+
 ## Environment Setup
 
 ```bash
